@@ -1,0 +1,118 @@
+{
+  "feed_date": "2026-07-11",
+  "merchants": [
+    {
+      "id": "m_green_valley",
+      "name": "Green Valley Grocers",
+      "type": "grocery",
+      "city": "Austin",
+      "products": [
+        {
+          "id": "p_milk_organic_1l",
+          "name": "Organic Whole Milk 1L",
+          "category": "grocery",
+          "subcategory": "dairy",
+          "brand": "Green Valley",
+          "description": "Grass-fed organic whole milk, glass bottle.",
+          "price": { "amount": 3.49, "currency": "USD" },
+          "promotion": {
+            "id": "promo_milk_15",
+            "title": "Dairy Days — 15% off milk",
+            "discount_pct": 15,
+            "starts_at": "2026-07-08",
+            "ends_at": "2026-07-14"
+          }
+        },
+        {
+          "id": "p_cheddar_block",
+          "name": "Aged Cheddar Block 250g",
+          "category": "grocery",
+          "subcategory": "dairy",
+          "brand": "Green Valley",
+          "description": "12-month aged sharp cheddar.",
+          "price": { "amount": 5.99, "currency": "USD" }
+        },
+        {
+          "id": "p_sourdough",
+          "name": "Artisan Sourdough Loaf",
+          "category": "grocery",
+          "subcategory": "bakery",
+          "brand": "Green Valley",
+          "description": "Naturally leavened, baked in-store daily.",
+          "price": { "amount": 4.25, "currency": "USD" },
+          "promotion": {
+            "id": "promo_bread_bogo",
+            "title": "Buy one get one 50% off bread",
+            "discount_pct": 25,
+            "starts_at": "2026-07-10",
+            "ends_at": "2026-07-17"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m_seaside_bistro",
+      "name": "Seaside Bistro",
+      "type": "restaurant",
+      "city": "San Diego",
+      "products": [
+        {
+          "id": "p_fish_tacos",
+          "name": "Grilled Fish Tacos",
+          "category": "restaurant",
+          "subcategory": "mains",
+          "description": "Three grilled mahi-mahi tacos with lime slaw.",
+          "price": { "amount": 14.5, "currency": "USD" },
+          "promotion": {
+            "id": "promo_taco_tue",
+            "title": "Taco Tuesday — 20% off",
+            "discount_pct": 20,
+            "starts_at": "2026-07-07",
+            "ends_at": "2026-07-31"
+          }
+        },
+        {
+          "id": "p_clam_chowder",
+          "name": "New England Clam Chowder",
+          "category": "restaurant",
+          "subcategory": "soups",
+          "description": "Creamy chowder served in a sourdough bowl.",
+          "price": { "amount": 9.0, "currency": "USD" }
+        }
+      ]
+    },
+    {
+      "id": "m_daily_mart",
+      "name": "Daily Mart",
+      "type": "grocery",
+      "city": "Chicago",
+      "products": [
+        {
+          "id": "p_cola_6pack",
+          "name": "Classic Cola 6-pack",
+          "category": "grocery",
+          "subcategory": "beverages",
+          "brand": "FizzCo",
+          "description": "330ml cans, six pack.",
+          "price": { "amount": 4.99, "currency": "USD" },
+          "promotion": {
+            "id": "promo_cola_summer",
+            "title": "Summer refresh — 30% off soft drinks",
+            "discount_pct": 30,
+            "starts_at": "2026-07-01",
+            "ends_at": "2026-07-31"
+          }
+        },
+        {
+          "id": "p_greek_yogurt",
+          "name": "Greek Yogurt 500g",
+          "category": "grocery",
+          "subcategory": "dairy",
+          "brand": "Olympus",
+          "description": "High-protein plain Greek yogurt.",
+          "price": { "amount": 3.19, "currency": "USD" }
+        }
+      ]
+    }
+  ]
+}
