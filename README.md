@@ -142,13 +142,3 @@ cd services/etl-service && npm install && npm run start:dev
 Set the same env vars from `.env` in your shell. You'll need a Postgres with
 the `vector` extension available (or just run the `postgres` container alone:
 `docker compose up postgres`).
-
----
-
-## Tech highlights (for the résumé)
-
-- **ETL**: scheduled ingestion of large JSON, idempotent upserts, batching.
-- **Microservices**: 4 independently deployable services + DB, one compose file.
-- **RAG**: Voyage embeddings + pgvector similarity search + Claude generation.
-- **AI**: `claude-opus-4-8` with grounded, citation-style answers.
-- **Infra**: containerized, health-checked, env-driven configuration.
