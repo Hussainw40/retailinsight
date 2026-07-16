@@ -63,7 +63,7 @@ export class EtlService {
     try {
       const dir = path.resolve(config.dataDir);
       const files = (await fs.readdir(dir)).filter((f) => f.endsWith('.json'));
-      const results = [];
+      const results: any[] = [];
       for (const file of files) {
         results.push(await this.ingestFile(path.join(dir, file)));
       }
